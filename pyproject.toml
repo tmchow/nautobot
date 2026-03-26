@@ -29,7 +29,7 @@ dependencies = [
     # Added as an explicit dependency to protect against various CVEs in older versions.
     "cryptography (>=46.0.5,<46.1)",
     # Fundamental web framework for Nautobot
-    "django (>=5.2.12,<5.3)",
+    "django (>=6.0.3,<6.1)",
     # Adds AJAX capabilities to django-tables2
     "django-ajax-tables (>=1.1.1,<1.2)",
     # Database backend for task scheduling with Celery Beat
@@ -48,7 +48,7 @@ dependencies = [
     # Advanced query filters
     "django-filter (>=25.2,<25.3)",
     # Health check endpoint
-    "django-health-check (>=3.20.8,<3.21)",
+    "django-health-check (>=4.2.1,<4.3)",
     # Django Jinja - jinja2 backend for django, used to easily register custom jinja filters and render jinja.
     "django-jinja (>=2.11.0,<2.12)",
     # Prometheus metrics for Django

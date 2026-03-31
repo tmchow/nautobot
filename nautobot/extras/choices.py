@@ -356,6 +356,27 @@ class LogLevelChoices(ChoiceSet):
 
 
 #
+# ScheduledJob
+#
+
+
+class ScheduledJobStatusChoices(ChoiceSet):
+    ACTIVE = "active"
+    PENDING = "pending"
+    DENIED = "denied"
+    CANCELED = "canceled"
+    COMPLETED = "completed"
+
+    CHOICES = (
+        (ACTIVE, "Active"),
+        (PENDING, "Pending"),
+        (DENIED, "Denied"),
+        (CANCELED, "Canceled"),
+        (COMPLETED, "Completed"),
+    )
+
+
+#
 # Metadata
 #
 

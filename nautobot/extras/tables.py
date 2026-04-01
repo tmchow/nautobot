@@ -1528,6 +1528,7 @@ class ScheduledJobTable(BaseTable):
             "crontab",
             "time_zone",
             "actions",
+            "status",
         )
         default_columns = (
             "pk",
@@ -1538,6 +1539,7 @@ class ScheduledJobTable(BaseTable):
             "interval",
             "last_run_at",
             "actions",
+            "status",
         )
 
 
